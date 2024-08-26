@@ -7,9 +7,9 @@ DRN is inspired by Boltzmann distribution, which is a probability distribution u
 _________________________________________________
 | Model |  L2 test loss   | Number of Parameter |
 |-------+-----------------+---------------------|
-|  DRN  | 0.1441 ± 0.0010 |         5           |
-|  MLP  | 0.1475 ± 0.0005 |        703          |
-|  3BE  | 0.1255 ± 0.0083 |        272          |
+|  DRN  | 0.1441 ± 0.0010 |________ 5 _________ |
+|  MLP  | 0.1475 ± 0.0005 |_______ 703 ________ |
+|  3BE  | 0.1255 ± 0.0083 |_______ 272 ________ |
 |_______|_________________|_____________________|
 Table shows comparison of L2 test loss and the number of model parameters used for the Ornstein-Uhlenbeck (OU) data. 
 
@@ -19,5 +19,5 @@ ______________________________________________________________
 |  DRN  |        474.43 ± 0.01          |         7           |
 |  MLP  |        471.50 ± 0.08          |        4110         |
 |  3BE  |        466.76 ± 0.73          |        8100         |
-|_______|_______________________________|_____________________|
+|______ | _____________________________ | ____________________|
 Table shows comparison of log-likelihood on the stock data and the number of model parameters.               
