@@ -5,11 +5,11 @@
 DRN is inspired by Boltzmann distribution, which is a probability distribution used in statistical mechanics that describes the distribution of energy states of a system in thermal equilibrium. DRN is tested with Ornstein-Uhlenbeck (OU) process which is a mean-reverting random-walk behavior describing Brownian motion with friction. DRN is also applied to stock data and cell data, which tend to revert into stable state over time. Result below shows that DRN **performs better** than 3BE and typical Multilayer Perceptron (MLP) with **less number of parameters**.
 
 _________________________________________________ <br />
-| Model |  L2 test loss   | Number of Parameter | <br />
+| Model |_ L2 test loss__ | Number of Parameter | <br />
 |-------+-----------------+---------------------| <br />
-|  DRN  | 0.1441 ± 0.0010 |________ 5 _________ | <br />
-|  MLP  | 0.1475 ± 0.0005 |_______ 703 ________ | <br />
-|  3BE  | 0.1255 ± 0.0083 |_______ 272 ________ | <br />
+|_ DRN_ | 0.1441 ± 0.0010 |________ 5 _________ | <br />
+|_ MLP_ | 0.1475 ± 0.0005 |_______ 703 ________ | <br />
+|_ 3BE_ | 0.1255 ± 0.0083 |_______ 272 ________ | <br />
 |-----------------------------------------------| <br />
 Table shows comparison of L2 test loss and the number of model parameters used for the Ornstein-Uhlenbeck (OU) data. 
 
